@@ -84,6 +84,18 @@ export const constantRoutes = [
     ]
   },
   {
+    path: '/user-credentials',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/user-credentials/index'),
+        name: 'User Credentials',
+        meta: { title: 'User Credentials', icon: 'password', affix: true }
+      }
+    ]
+  },
+  {
     path: '/documentation',
     component: Layout,
     children: [

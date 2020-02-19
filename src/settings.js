@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Vue Element Admin',
+  title: 'Facebook Scraper',
 
   /**
    * @type {boolean} true | false
